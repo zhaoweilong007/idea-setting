@@ -1,0 +1,76 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogHeight" value="473" />
+    <option name="newTranslationDialogWidth" value="833" />
+    <option name="newTranslationDialogX" value="645" />
+    <option name="newTranslationDialogY" value="530" />
+    <histories>
+      <item value="bookmarks" />
+      <item value="book" />
+      <item value="distraction free mode" />
+      <item value="dis" />
+      <item value="presentation mode" />
+      <item value="presentation" />
+      <item value="enter distraction mode" />
+      <item value="distraction mode" />
+      <item value="distraction " />
+      <item value="distraction" />
+      <item value="fake" />
+      <item value="语言" />
+      <item value="yu" />
+      <item value="recommend" />
+      <item value="banner" />
+      <item value="动态" />
+      <item value="publish Authorization Success" />
+      <item value="obtain" />
+      <item value="social" />
+      <item value="s" />
+      <item value="squash into" />
+      <item value="squash" />
+      <item value="validate Token" />
+      <item value="incorrect" />
+      <item value="用户密码不正确" />
+      <item value="BaseException" />
+      <item value="用户不正确" />
+      <item value="用户名称不正确" />
+      <item value="YUON" />
+      <item value="Failed to instantiate [org.springframework.web.servlet.HandlerExceptionResolver]: Factory method 'handlerExceptionResolver' threw exception; nested exception is java.lang.IllegalStateException: Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public java.lang.Object com.square.framework.web.exception.GlobalExceptionHandler.validExceptionHandler(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception}" />
+      <item value="Ambiguous @ExceptionHandler method mapped for [class org.springframework.web.bind.MethodArgumentNotValidException]: {public java.lang.Object com.square.framework.web.exception.GlobalExceptionHandler.validExceptionHandler(org.springframework.web.bind.MethodArgumentNotValidException), public final org.springframework.http.ResponseEntity org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception} at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.addExceptionMapping(ExceptionHandlerMethodResolver.java:101) at org.springframework.web.method.annotation.ExceptionHandlerMethodResolver.&lt;init&gt;(ExceptionHandlerMethodResolver.java:65) at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache(ExceptionHandlerExceptionResolver.java:281) at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.afterPropertiesSet(ExceptionHandlerExceptionResolver.java:258) at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.addDefaultHandlerExceptionResolvers(WebMvcConfigurationSupport.java:1007) at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.handlerExceptionResolver(WebMvcConfigurationSupport.java:949) at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) at java.lang.reflect.Method.invoke(Method.java:498) at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ... 22 common frames omitted" />
+      <item value="Chain processed normally 2022-03-29 09:19:23.521 DEBUG --- [nio-8080-exec-2] s.s.w.c.SecurityContextPersistenceFilter [doFilter, 119] [] : SecurityContextHolder now cleared, as request processing completed" />
+      <item value="RunAsManager did not change Authentication object 2022-03-29 09:19:23.454 DEBUG --- [nio-8080-exec-2] o.s.security.web.FilterChainProxy [doFilter, 313] [] : error reached end of additional filter chain; proceeding with original chain" />
+      <item value="Authorization successful" />
+      <item value="Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@237b121d: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'" />
+      <item value="error at position 1 of 13 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'" />
+      <item value="SecurityContextHolder now cleared, as request processing completed" />
+      <item value="Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriterSecureRequestMatcher@6319ec7a" />
+      <item value="Request 'POST login' doesn't match 'GET logout'" />
+      <item value="Trying to match using Ant [pattern='logout', GET]" />
+      <item value="login at position 6 of 13 in additional filter chain; firing Filter: 'LogoutFilter'" />
+      <item value="business Data Info" />
+      <item value="Authentication is complete. Remove credentials and other secret data from authentication" />
+      <item value="additional Authentication Checks" />
+      <item value="There was a problem, so try again after checking we're using latest data (i.e. not from the cache)" />
+      <item value="&quot;Failed to authenticate since user account has expired" />
+      <item value="Session Authentication Strategy" />
+      <item value="authenticationManager must be specified" />
+      <item value="Error creating bean with name 'usernamePasswordAuthenticationFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?" />
+      <item value="Promotion Type Charge" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="1210" />
+        <entry key="ENGLISH" value="1206" />
+        <entry key="BULGARIAN" value="1" />
+        <entry key="DANISH" value="2" />
+        <entry key="FRENCH" value="2" />
+        <entry key="ROMANIAN" value="1" />
+        <entry key="NORWEGIAN" value="4" />
+        <entry key="PORTUGUESE" value="1" />
+        <entry key="INDONESIAN" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1648777187387" />
+  </component>
+</application>

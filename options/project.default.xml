@@ -1,0 +1,734 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="AutoImportSettings">
+        <option name="autoReloadType" value="SELECTIVE" />
+      </component>
+      <component name="CompilerConfiguration">
+        <annotationProcessing>
+          <profile default="true" name="Default" enabled="true" />
+        </annotationProcessing>
+      </component>
+      <component name="EasyCodeTableSetting">
+        <option name="tableInfoMap">
+          <map>
+            <entry key="dish_order">
+              <value>
+                <TableInfoDTO>
+                  <option name="fullColumn">
+                    <list>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="订单系统ID" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="billId" />
+                        <option name="type" value="java.lang.Long" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="订单编号" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="billNo" />
+                        <option name="type" value="java.lang.String" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="订单实际产生时间" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="billDate" />
+                        <option name="type" value="java.util.Date" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="营业日期  自动依据营业是时间段来确认营业日期" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="businessDate" />
+                        <option name="type" value="java.util.Date" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="品牌ID" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="groupId" />
+                        <option name="type" value="java.lang.Long" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="商户ID" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="companyId" />
+                        <option name="type" value="java.lang.Long" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="门店ID" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="resId" />
+                        <option name="type" value="java.lang.Long" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="会员ID" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="memberId" />
+                        <option name="type" value="java.lang.Long" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="订单类型 1022 数据字典  1－门店 2－外卖  3自提" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="billType" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="订单来源1025   1－收银  3－自助  5 –微信  7-android App订单 9 - ios App订单  11 网站 13 第三方" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="fromType" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="-2 作废 -1 退单  0 初始  2 拒绝  11 下单成功 12 支付成功  13 呼叫中 14 已接单 21 完成" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="billStatus" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="订单流程子状态  参考枚举" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="billSubStatus" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="订单处理状态" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="billBusStatus" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="预约配送用餐时间 仅外卖使用， 默认为当前时间，可选择配送时间" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="bespeakTime" />
+                        <option name="type" value="java.util.Date" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="拒单理由  来源于 数据字典中" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="refuseReason" />
+                        <option name="type" value="java.lang.String" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="退款标记  0 无退款 1存在退款 2 完全退款" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="refundTag" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="退款时间" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="refundTime" />
+                        <option name="type" value="java.util.Date" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="退款后该笔订单剩余用户支付金额 " />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="remainderAmount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="点单金额 sum(明细.点单金额)" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="amount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="折扣金额 汇总明细折扣金额" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="discountAmount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="赠送金额 汇总明细赠送金额" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="giftAmount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="明细汇总实付金额=sum(detl.ar_amount)" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="detlArAmount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="自动抹零金额" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="roundAmount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="手工抹零金额" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="manualRoundAmount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="优惠券码 " />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="couponNo" />
+                        <option name="type" value="java.lang.String" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="优惠券金额" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="couponAmount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="购卡金额 仅记录购卡金额，不参与计算" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="cardAmount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="配送费" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="dispatchAmount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="应收金额=detl_ar_amount-round_amount-manual_round_amount-coupon_amount+card_amount+dispatch_amount" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="arAmount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="收现金" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="cashAmount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="找零" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="changAmount" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="收款类型1041，来源数据字典表：1 现金  2 储值卡  3支付宝扫码  4支付宝条码 5支付宝app 6 微信扫码支付 7 微信条码 8 微信app支付" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="payType" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="支付状态 1048 -2 支付失败 -1 退款  0 未支付 1已支付  " />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="payStatus" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="付款时间" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="payTime" />
+                        <option name="type" value="java.util.Date" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="取货码  当天内不重复，随机产生4-6位数" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="callNo" />
+                        <option name="type" value="java.lang.String" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="折扣类型1052  0 不折扣 1 普通折 5 会员折 7 促销折 暂时不用" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="discountType" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="订单备注" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="remark" />
+                        <option name="type" value="java.lang.String" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="nfc 嘀卡卡号" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="nfcCard" />
+                        <option name="type" value="java.lang.String" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="设备号 用于判断当前单号是否重复：门店ID+设备号+门店单号ID" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="deviceNo" />
+                        <option name="type" value="java.lang.String" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="设备ID" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="deviceId" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="由离线时门店收银端产生的单号 使用GUID" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="resBillId" />
+                        <option name="type" value="java.lang.String" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="交班单据ID" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="shiftBillId" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="日结ID" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="dailyShiftBillId" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="收款人 默认=创建人" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="cashBillerId" />
+                        <option name="type" value="java.lang.Long" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="退款人" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="refundBillerId" />
+                        <option name="type" value="java.lang.Long" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="创建人" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="createBy" />
+                        <option name="type" value="java.lang.Long" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="创建时间" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="createDate" />
+                        <option name="type" value="java.util.Date" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="更新人" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="updateBy" />
+                        <option name="type" value="java.lang.Long" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="更新时间" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="updateDate" />
+                        <option name="type" value="java.util.Date" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="更新时间戳" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="updateTimestamp" />
+                        <option name="type" value="java.util.Date" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="打印次数" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="printTimes" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="关联支付单号" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="refPayNo" />
+                        <option name="type" value="java.lang.String" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="会员卡ID，消费时使用的卡id" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="cardId" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="关联优惠活动单号 仅优惠券使用" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="refPromotionBillId" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="省" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="addrProvince" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="市" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="addrCity" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="区" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="addrDistrict" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="交货地址，默认门店地址" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="address" />
+                        <option name="type" value="java.lang.String" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="联系人" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="contact" />
+                        <option name="type" value="java.lang.String" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="联系电话" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="telephone" />
+                        <option name="type" value="java.lang.String" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="经度" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="longitude" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="纬度" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="latitude" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="'性别 0 未知  1 男 2 女'" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="gender" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="0 未删除 1删除" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="isDelete" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="评价抽奖标识 0 未评价 1已评价 2已抽奖" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="commentFlag" />
+                        <option name="type" value="java.lang.Integer" />
+                      </ColumnInfoDTO>
+                      <ColumnInfoDTO>
+                        <option name="comment" value="配送总重量" />
+                        <option name="custom" value="false" />
+                        <option name="ext">
+                          <map />
+                        </option>
+                        <option name="name" value="weight" />
+                        <option name="type" value="java.lang.Double" />
+                      </ColumnInfoDTO>
+                    </list>
+                  </option>
+                  <option name="name" value="DishOrder" />
+                  <option name="preName" value="" />
+                  <option name="saveModelName" value="square-admin" />
+                  <option name="savePackageName" value="com.square.test.tk.model" />
+                  <option name="savePath" value="./square-admin/src/main/java/com/square/test/tk/model" />
+                  <option name="templateGroupName" value="tk mapper" />
+                </TableInfoDTO>
+              </value>
+            </entry>
+          </map>
+        </option>
+      </component>
+      <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="MavenImportPreferences">
+        <option name="generalSettings">
+          <MavenGeneralSettings>
+            <option name="localRepository" value="C:\Users\admin\.m2\repository" />
+            <option name="userSettingsFile" value="C:\Users\admin\.m2\settings.xml" />
+          </MavenGeneralSettings>
+        </option>
+      </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="admin" />
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State />
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>Ali-Check</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="graalvm-1.8" project-jdk-type="JavaSDK" />
+      <component name="ProjectViewState">
+        <option name="autoscrollFromSource" value="true" />
+        <option name="hideEmptyMiddlePackages" value="true" />
+        <option name="showLibraryContents" value="true" />
+        <option name="showVisibilityIcons" value="true" />
+        <option name="sortByType" value="true" />
+      </component>
+      <component name="PropertiesComponent">
+        <property name="last_opened_file_path" value="C:/software/visualvm_212/visualvm_212/bin/visualvm.exe" />
+        <property name="project.structure.last.edited" value="Global Libraries" />
+        <property name="project.structure.proportion" value="0.0" />
+        <property name="project.structure.side.proportion" value="0.2" />
+        <property name="settings.editor.selected.configurable" value="File.Encoding" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="GlobalLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="JdkListConfigurable.UI">
+            <settings>
+              <last-edited>11</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>graalvm-1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>
