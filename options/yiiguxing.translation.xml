@@ -1,0 +1,87 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogHeight" value="473" />
+    <option name="newTranslationDialogWidth" value="829" />
+    <option name="newTranslationDialogX" value="645" />
+    <option name="newTranslationDialogY" value="530" />
+    <histories>
+      <item value="boom" />
+      <item value="签名" />
+      <item value="qian'mi" />
+      <item value="q" />
+      <item value="LOWER UNDERSCORE" />
+      <item value="stall Activity Id" />
+      <item value="com.google.cloud.tools.jib.plugins.common.BuildStepsExecutionException: Build image failed, perhaps you should make sure your credentials for 'registry.cn-hangzhou.aliyuncs.comdevspringboot-redis' are set up correctly. See" />
+      <item value="MANIFEST UNKNOWN" />
+      <item value="we Chat Order Refund Generate Confirm" />
+      <item value="set Recovery Callback" />
+      <item value="success handler" />
+      <item value="success " />
+      <item value="sucess" />
+      <item value="tha" />
+      <item value="that" />
+      <item value="than" />
+      <item value="and t" />
+      <item value="and th" />
+      <item value="and than" />
+      <item value="and" />
+      <item value="andthan" />
+      <item value="如果成功" />
+      <item value="if" />
+      <item value="binidng device" />
+      <item value="binidng" />
+      <item value="send Commodity" />
+      <item value="Deliver Req" />
+      <item value="io.jsonwebtoken.ExpiredJwtException: JWT expired at 2022-04-18T09:44:00Z. Current time: 2022-04-19T18:18:03Z, a difference of 117243464 milliseconds. Allowed clock skew: 0 milliseconds." />
+      <item value="Convert" />
+      <item value="Charset Kit" />
+      <item value="get Member Name From Token" />
+      <item value="Pre Authenticated Credentials Not Found Exception" />
+      <item value="efaultTarget must start with '' or with 'http(s)'" />
+      <item value="SecurityContextHolder not populated with anonymous token, as it already contained:" />
+      <item value="s there an unresolvable circular reference?" />
+      <item value="subsystem type is Can not null" />
+      <item value="subsystem type is Can not be null" />
+      <item value="不能为空" />
+      <item value="不能wei" />
+      <item value="bu'n" />
+      <item value="Bu" />
+      <item value="subsystem type is not be null" />
+      <item value="subsystem type is not null" />
+      <item value="does not contain a valid DateToken" />
+      <item value="Could not find an appender named [console]." />
+      <item value="to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS" />
+      <item value="FAIL ON EMPTY BEANS" />
+      <item value="auto Dialect" />
+      <item value="auto" />
+      <item value="dialect" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="1277" />
+        <entry key="ENGLISH" value="1277" />
+        <entry key="BULGARIAN" value="1" />
+        <entry key="DANISH" value="2" />
+        <entry key="FRENCH" value="2" />
+        <entry key="ROMANIAN" value="1" />
+        <entry key="NORWEGIAN" value="4" />
+        <entry key="PORTUGUESE" value="1" />
+        <entry key="INDONESIAN" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1650763414338" />
+  </component>
+  <component name="Settings">
+    <option name="showExplanation" value="true" />
+    <option name="showWordsOnStartup" value="true" />
+    <option name="translateDocumentation" value="true" />
+    <option name="translator" value="YOUDAO" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="1bfb176dbb8a5d12" />
+      </youdao-translate>
+    </option>
+  </component>
+</application>

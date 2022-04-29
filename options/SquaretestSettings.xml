@@ -1,0 +1,40 @@
+<application>
+  <component name="SquaretestSettings">
+    <option name="usageStatsEnabled" value="true" />
+    <option name="projectNameToSettingsMap">
+      <map>
+        <entry key="square-pos">
+          <value>
+            <ProjectSettings>
+              <option name="projectName" value="square-pos" />
+              <option name="templateLanguage" value="Java" />
+              <option name="template">
+                <Template>
+                  <option name="presentationName" value="JUnit5MockitoSpringAssertJ.java.ft" />
+                  <option name="internalTemplateSaveName" value="SQTJ-JUnit5MockitoSpringAssertJ.java" />
+                  <option name="isInternal" value="true" />
+                </Template>
+              </option>
+              <option name="moduleAutoConfigSetting" value="AUTOMATICALLY_CONFIGURE_WHEN_POSSIBLE" />
+            </ProjectSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectNameModuleNameToSettingsMap">
+      <map>
+        <entry key="square-pos_square-admin">
+          <value>
+            <ModuleSettings>
+              <option name="moduleName" value="square-admin" />
+              <option name="testDirectoryRoot" value="square-admin\src\test\java" />
+            </ModuleSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="collectUsageStats" value="true" />
+    <option name="hasShownMetricsDisclosure" value="true" />
+    <option name="id" value="1f295550-0d6a-4a50-9877-6e36d837e178" />
+  </component>
+</application>

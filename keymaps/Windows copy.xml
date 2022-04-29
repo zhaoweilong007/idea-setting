@@ -1,0 +1,32 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt period" />
+  </action>
+  <action id="CopyStoryContent" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="ctrl alt 2" />
+  </action>
+  <action id="JRebel Debug">
+    <keyboard-shortcut first-keystroke="ctrl alt 4" />
+  </action>
+  <action id="JRebel Executor">
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+  </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
+  <action id="ViewToolButtons">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+</keymap>

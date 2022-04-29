@@ -1,0 +1,429 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="11" />
+      <type value="JavaSDK" />
+      <version value="Oracle OpenJDK version 11.0.2" />
+      <homePath value="$USER_HOME$/scoop/apps/openjdk11/current" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/jdkAnnotations.jar!/" type="simple" />
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.base" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.compiler" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.datatransfer" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.desktop" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.instrument" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.logging" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.management" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.management.rmi" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.naming" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.net.http" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.prefs" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.rmi" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.scripting" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.se" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.security.jgss" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.security.sasl" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.smartcardio" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.sql" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.sql.rowset" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.transaction.xa" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.xml" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/java.xml.crypto" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.accessibility" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.aot" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.attach" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.charsets" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.compiler" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.crypto.ec" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.crypto.mscapi" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.dynalink" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.editpad" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.httpserver" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.internal.ed" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.internal.le" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.internal.opt" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.jartool" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.javadoc" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.jcmd" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.jconsole" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.jdeps" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.jdi" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.jfr" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.jlink" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.jshell" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.jsobject" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.jstatd" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.localedata" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.management" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.management.agent" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.management.jfr" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.naming.dns" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.naming.rmi" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.net" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.pack" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.rmic" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.scripting.nashorn" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.scripting.nashorn.shell" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.sctp" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.security.auth" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.security.jgss" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.unsupported" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.xml.dom" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/openjdk11/current!/jdk.zipfs" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.se" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.aot" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.jdi" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.jfr" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.net" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.rmi" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.sql" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.xml" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.jcmd" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.pack" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.rmic" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.sctp" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.base" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.jdeps" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.jlink" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.zipfs" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.prefs" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.attach" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.jshell" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.jstatd" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.naming" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.editpad" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.jartool" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.javadoc" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.xml.dom" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.desktop" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.logging" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.charsets" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.compiler" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.dynalink" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.jconsole" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.jsobject" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.compiler" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.net.http" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.crypto.ec" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.scripting" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.httpserver" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.jdwp.agent" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.localedata" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.management" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.naming.dns" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.naming.rmi" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.instrument" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.management" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.sql.rowset" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.xml.crypto" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.internal.ed" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.internal.le" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.unsupported" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.smartcardio" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.internal.opt" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.datatransfer" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.accessibility" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.crypto.mscapi" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.hotspot.agent" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.security.auth" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.security.jgss" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.security.jgss" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.security.sasl" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.internal.vm.ci" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.management.jfr" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.management.rmi" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/java.transaction.xa" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.internal.jvmstat" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.management.agent" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.scripting.nashorn" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.scripting.nashorn.shell" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/openjdk11/current/lib/src.zip!/jdk.internal.vm.compiler.management" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="graalvm-1.8" />
+      <type value="JavaSDK" />
+      <version value="GraalVM version 1.8.0_302" />
+      <homePath value="$USER_HOME$/scoop/apps/graalvm20-jdk8/current" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/jdkAnnotations.jar!/" type="simple" />
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/charsets.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/ext/access-bridge-64.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/ext/cldrdata.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/ext/dnsns.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/ext/jaccess.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/ext/localedata.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/ext/nashorn.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/ext/sunec.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/ext/sunjce_provider.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/ext/sunmscapi.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/ext/sunpkcs11.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/ext/zipfs.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/jce.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/jfr.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/jsse.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/jvmci-services.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/management-agent.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/resources.jar!/" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/jre/lib/rt.jar!/" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm20-jdk8/current/src.zip!/" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="graalvm-17" />
+      <type value="JavaSDK" />
+      <version value="GraalVM version 17.0.1" />
+      <homePath value="C:\Users\admin\scoop\apps\graalvm21-jdk17\current" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/jdkAnnotations.jar!/" type="simple" />
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/com.oracle.graal.graal_enterprise" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/com.oracle.svm.svm_enterprise" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/com.oracle.truffle.regex" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/com.oracle.truffle.truffle_nfi" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/com.oracle.truffle.truffle_nfi_libffi" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.base" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.compiler" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.datatransfer" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.desktop" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.instrument" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.logging" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.management" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.management.rmi" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.naming" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.net.http" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.prefs" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.rmi" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.scripting" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.se" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.security.jgss" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.security.sasl" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.smartcardio" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.sql" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.sql.rowset" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.transaction.xa" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.xml" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/java.xml.crypto" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.accessibility" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.attach" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.charsets" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.compiler" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.crypto.ec" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.crypto.mscapi" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.dynalink" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.editpad" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.httpserver" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.incubator.foreign" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.incubator.vector" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.internal.ed" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.internal.le" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.internal.opt" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.internal.vm.compiler.truffle.jfr" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.jartool" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.javadoc" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.jcmd" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.jconsole" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.jdeps" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.jdi" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.jfr" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.jlink" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.jpackage" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.jshell" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.jsobject" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.jstatd" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.localedata" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.management" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.management.agent" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.management.jfr" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.naming.dns" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.naming.rmi" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.net" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.nio.mapmode" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.random" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.sctp" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.security.auth" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.security.jgss" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.unsupported" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.xml.dom" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/jdk.zipfs" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/org.graalvm.js.scriptengine" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/org.graalvm.locator" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/org.graalvm.nativeimage.llvm" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/org.graalvm.sdk" type="simple" />
+            <root url="jrt://C:/Users/admin/scoop/apps/graalvm21-jdk17/current!/org.graalvm.truffle" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.se" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.jdi" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.jfr" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.net" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.rmi" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.sql" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.xml" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.jcmd" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.sctp" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.base" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.jdeps" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.jlink" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.zipfs" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.prefs" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.attach" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.jshell" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.jstatd" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.random" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.naming" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.editpad" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.jartool" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.javadoc" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.xml.dom" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.desktop" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.logging" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.charsets" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.compiler" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.dynalink" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.jconsole" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.jpackage" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.jsobject" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.compiler" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.net.http" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.crypto.ec" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.scripting" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.httpserver" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.jdwp.agent" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.localedata" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.management" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.naming.dns" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.naming.rmi" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.instrument" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.management" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.sql.rowset" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.xml.crypto" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.internal.ed" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.internal.le" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.nio.mapmode" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.unsupported" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/org.graalvm.sdk" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.smartcardio" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.internal.opt" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.datatransfer" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.accessibility" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.crypto.mscapi" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.hotspot.agent" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.security.auth" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.security.jgss" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.security.jgss" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.security.sasl" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.internal.vm.ci" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.management.jfr" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.management.rmi" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/java.transaction.xa" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/org.graalvm.locator" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/org.graalvm.truffle" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.incubator.vector" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.internal.jvmstat" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.management.agent" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.incubator.foreign" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/com.oracle.truffle.regex" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/org.graalvm.js.scriptengine" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/org.graalvm.nativeimage.llvm" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/com.oracle.svm.svm_enterprise" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/com.oracle.truffle.truffle_nfi" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/com.oracle.graal.graal_enterprise" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/jdk.internal.vm.compiler.truffle.jfr" type="simple" />
+            <root url="jar://$USER_HOME$/scoop/apps/graalvm21-jdk17/current/lib/src.zip!/com.oracle.truffle.truffle_nfi_libffi" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Kotlin SDK" />
+      <type value="KotlinSDK" />
+      <version value="1.6.10-release-961" />
+      <homePath value="C:\Users\admin\AppData\Roaming\JetBrains\IntelliJIdea2021.3\plugins\Kotlin\kotlinc" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite" />
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>
